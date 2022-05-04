@@ -16,7 +16,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 |
 */
 
-Route::get('/', function (CertificagtePDFMerger $merger) {
+Route::get('/', function (CertificatePDFMerger $merger) {
     /** @var Certificate $certificate */
     $certificate = Certificate::first();
 
